@@ -1,0 +1,13 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: CRM App Page
+-->
+{% extends "./layouts/base.hubl.html" %}
+
+{% block body %}
+  {% module
+    "crmApp"
+    path="../components/modules/CRMApp"
+  %}
+{% endblock body %}
