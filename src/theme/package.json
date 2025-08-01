@@ -4,15 +4,21 @@
   "description": "CMS React starter theme",
   "scripts": {
     "start": "hs-cms-dev-server .",
-    "deploy": "hs project upload"
+    "deploy": "hs project upload",
+    "build:css": "npx postcss components/modules/CRMApp/styles/app.css -o components/modules/CRMApp/styles/app.built.css"
   },
   "type": "module",
   "keywords": [],
   "dependencies": {
     "@hubspot/cms-components": "latest",
-    "react": "^18"
+    "react": "^18",
+    "react-router-dom": "^7.6.3",
+    "lucide-react": "^0.525.0"
   },
   "devDependencies": {
-    "@hubspot/cms-dev-server": "latest"
+    "@hubspot/cms-dev-server": "latest",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
   }
 }

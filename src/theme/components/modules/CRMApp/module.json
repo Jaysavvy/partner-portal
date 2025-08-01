@@ -1,0 +1,7 @@
+{
+  "label": "CRM React Application",
+  "is_available_for_new_content": true,
+  "global": false,
+  "host_template_types": ["PAGE"],
+  "icon": "code"
+}

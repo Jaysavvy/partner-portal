@@ -1,3 +1,69 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* CSS Reset and Debug Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Container styles */
+.crm-app-container {
+  min-height: 100vh;
+}
+
+/* Tailwind CSS classes will be processed by HubSpot build */
+.flex { display: flex; }
+.flex-1 { flex: 1 1 0%; }
+.h-screen { height: 100vh; }
+.bg-gray-50 { background-color: rgb(249 250 251); }
+.bg-gray-900 { background-color: rgb(17 24 39); }
+.bg-blue-600 { background-color: rgb(37 99 235); }
+.text-white { color: rgb(255 255 255); }
+.text-gray-400 { color: rgb(156 163 175); }
+.text-gray-900 { color: rgb(17 24 39); }
+.p-4 { padding: 1rem; }
+.p-8 { padding: 2rem; }
+.mb-8 { margin-bottom: 2rem; }
+.rounded-lg { border-radius: 0.5rem; }
+.shadow { box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1); }
+.overflow-y-auto { overflow-y: auto; }
+.w-64 { width: 16rem; }
+.space-y-1 > * + * { margin-top: 0.25rem; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.text-sm { font-size: 0.875rem; }
+.text-xl { font-size: 1.25rem; }
+.text-2xl { font-size: 1.5rem; }
+.block { display: block; }
+.px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.hover\:bg-gray-700:hover { background-color: rgb(55 65 81); }
+.items-center { align-items: center; }
+.border-b { border-bottom-width: 1px; }
+.transition-all { transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+.duration-200 { transition-duration: 200ms; }
+.bg-white { background-color: rgb(255 255 255); }
+.shadow-lg { box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); }
+.p-6 { padding: 1.5rem; }
+.border-gray-200 { border-color: rgb(229 231 235); }
+.text-gray-800 { color: rgb(31 41 55); }
+.text-gray-500 { color: rgb(107 114 128); }
+.text-gray-600 { color: rgb(75 85 99); }
+.mt-1 { margin-top: 0.25rem; }
+.space-y-2 > * + * { margin-top: 0.5rem; }
+.space-x-3 > * + * { margin-left: 0.75rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+.bg-blue-50 { background-color: rgb(239 246 255); }
+.text-blue-600 { color: rgb(37 99 235); }
+.hover\:bg-gray-50:hover { background-color: rgb(249 250 251); }
+.hover\:text-gray-900:hover { color: rgb(17 24 39); }
+.text-3xl { font-size: 1.875rem; }
+.space-x-3 > * + * { margin-left: 0.75rem; }
+.space-y-3 > * + * { margin-top: 0.75rem; }
+.space-y-4 > * + * { margin-top: 1rem; }
