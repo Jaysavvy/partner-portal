@@ -1,0 +1,19 @@
+{
+    "runtime": "nodejs18.x",
+    "version": "1.0",
+    "environment": {},
+    "endpoints": {
+      "get-contacts": {
+        "method": "GET",
+        "file": "functions/get-contacts.js"
+      },
+      "get-companies": {
+        "method": "GET", 
+        "file": "functions/get-companies.js"
+      },
+      "create-deal": {
+        "method": "POST",
+        "file": "functions/create-deal.js"
+      }
+    }
+  }
